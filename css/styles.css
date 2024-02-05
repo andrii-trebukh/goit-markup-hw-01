@@ -2,6 +2,7 @@
   --logo-color: #4d5ae5;
   --link-color: #2e2f42;
   --address-color: #434455;
+  --portfolio-bt-txt-color: #4d5ae5;
 }
 
 .body {
@@ -20,7 +21,7 @@
   text-transform: uppercase;
 }
 
-.logo2 {
+.logo-span {
   color: #2e2f42;
 }
 
@@ -62,11 +63,11 @@
   color: #404bbf;
 }
 
-.section1 {
+.section-one {
   background-color: #2e2f42;
 }
 
-.header1 {
+.header-one {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -99,7 +100,7 @@
   display: none;
 }
 
-.header3 {
+.header-three {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -107,7 +108,7 @@
   color: #2e2f42;
 }
 
-.section2-p {
+.paragraph {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -115,7 +116,7 @@
   color: #434455;
 }
 
-.header2 {
+.header-two {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -125,11 +126,11 @@
   text-transform: capitalize;
 }
 
-.section4 {
+.section-four {
   background-color: #f4f4fd;
 }
 
-.section4-item {
+.section-four-item {
   background-color: #ffffff;
 }
 
@@ -137,7 +138,7 @@
   background-color: #2e2f42;
 }
 
-.logo2-footer {
+.logo-span-footer {
   color: #f4f4fd;
 }
 
@@ -147,4 +148,26 @@
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.portfolio-button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--portfolio-bt-txt-color);
+  width: 116px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
 }
