@@ -77,7 +77,6 @@
 }
 
 .button {
-  border-radius: 4px;
   border: none;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -94,9 +93,9 @@
   background-color: #404bbf;
 }
 
-.hide {
+/* .hide {
   display: none;
-}
+} */
 
 .header-three {
   font-size: 20px;
@@ -156,7 +155,6 @@
   letter-spacing: 0.04em;
   text-align: center;
   color: var(--portfolio-bt-txt-color);
-  border-radius: 4px;
   border: 1px solid #e7e9fc;
   background-color: #f4f4fd;
   cursor: pointer;
