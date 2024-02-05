@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,13 +12,13 @@
       rel="stylesheet"
     />
   </head>
-  <body class="body">
-    <header>
-      <nav>
+  <body class="body container">
+    <header class="header flex">
+      <nav class="navigation flex">
         <a href="./index.html" class="logo link">
           Web<span class="logo-span">Studio</span>
         </a>
-        <ul class="list">
+        <ul class="list flex nav-link">
           <li>
             <a href="./index.html" class="nav-link link">Studio</a>
           </li>
@@ -29,8 +30,8 @@
           </li>
         </ul>
       </nav>
-      <address class="address">
-        <ul class="list">
+      <address class="address flex">
+        <ul class="list flex">
           <li>
             <a href="mailto:info@devstudio.com" class="address_item link"
               >info@devstudio.com</a
