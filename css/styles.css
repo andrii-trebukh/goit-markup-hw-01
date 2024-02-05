@@ -77,8 +77,6 @@
 }
 
 .button {
-  width: 169px;
-  height: 56px;
   border-radius: 4px;
   border: none;
   background-color: #4d5ae5;
@@ -151,15 +149,13 @@
 }
 
 .portfolio-button {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: var(--portfolio-bt-txt-color);
-  width: 116px;
-  height: 48px;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
   background-color: #f4f4fd;
