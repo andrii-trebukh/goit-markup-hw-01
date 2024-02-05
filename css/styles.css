@@ -39,7 +39,9 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--link-color)
+  color: var(--link-color);
+  gap: 40px;
+  margin: 0;
 }
 
 .nav-link:hover,
@@ -49,7 +51,8 @@
 
 .address {
   font-style: normal;
-  align-items: center
+  align-items: center;
+  margin-left: 332px;
 }
 
 .address_item {
@@ -67,6 +70,10 @@
 
 .section-one {
   background-color: #2e2f42;
+  padding-left: 472px;
+  padding-right: 472px;
+  padding-top: 188px;
+  height: 600px;
 }
 
 .header-one {
@@ -76,6 +83,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin: 0;
 }
 
 .button {
@@ -88,6 +96,11 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  width: 169px;
+height: 56px;
+border-radius: 4px;
+margin-left: 164px;
+margin-top: 48px;
 }
 
 .button:hover,
@@ -101,6 +114,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 0;
 }
 
 .paragraph {
@@ -109,6 +123,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
 }
 
 .header-two {
@@ -119,14 +134,21 @@
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin: 0;
 }
 
 .section-four {
   background-color: #f4f4fd;
+  height: 732px;
+  padding-right: 156px;
+  padding-left: 156px;
+  padding-top: 120px;
 }
 
 .section-four-item {
   background-color: #ffffff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .footer {
@@ -166,24 +188,75 @@
 
 .container {
   width: 1440px;
-  margin: auto;
-  padding-left: 156px;
-  padding-right: 156px
+  margin: auto
 }
 
 .flex {
   display: flex;
+  padding: 0;
 }
 
 .header {
   height: 72px;
+  padding-left: 156px;
+  padding-right: 156px
 }
 
 .navigation {
   align-items: center;
 }
 
-.nav-link {
+.address_list {
   gap: 40px;
-  padding: 0;
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.section-two {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-two-list {
+  gap: 24px;
+  margin: 0;
+}
+
+.section-two-paragraph {
+  margin-top: 8px;
+}
+
+.section-three {
+  padding-left: 156px;
+  padding-right: 156px;
+}
+
+.section-three-list {
+  gap: 24px;
+  margin: 0;
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+
+.section-four-list {
+  gap: 24px;
+  margin: 0;
+  margin-top: 72px;
+  /* margin-bottom: 120px; */
+}
+
+.section-four-header {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.section-four-paragraph {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
